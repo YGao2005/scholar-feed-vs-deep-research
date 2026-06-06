@@ -1,0 +1,48 @@
+{
+  "q": "q_attn",
+  "rep": 1,
+  "armA": "dr",
+  "armB": "sf",
+  "verdict": {
+    "report_A": {
+      "recency": 3,
+      "depth_lineage": 3,
+      "coverage": 3,
+      "grounding": 4,
+      "correctness": 3,
+      "n_recent_papers_2025_2026": 3,
+      "notes": "Tight, well-structured, and the 'killed claims' device signals rigor \u2014 but the rigor partly misfires: it kills the SSD/Mamba-2 semiseparable-attention duality as 'overstated,' which is actually a correct, well-established result. The narrative leans heavily on two unverifiable centerpiece papers: 'Gated DeltaNet-2' (arXiv:2605.22791, claimed NVIDIA May 2026) and 'SWAA' (arXiv:2512.10411), neither of which is recognizable, yet they are presented as the recurrent SOTA with precise accuracy tables (53.11 etc.). Coverage is narrow: no MoBA, no Kimi Linear, no hybrid-architecture track \u2014 which is arguably the real 2025 story. Only ~3 genuinely 2025/2026-dated cites with IDs. Grounding form is good (arXiv IDs throughout)."
+    },
+    "report_B": {
+      "recency": 5,
+      "depth_lineage": 5,
+      "coverage": 5,
+      "grounding": 5,
+      "correctness": 4,
+      "n_recent_papers_2025_2026": 12,
+      "notes": "Excellent breadth and a correct, nuanced thesis: FlashAttention persists as infrastructure while the *pattern* it computes changed, with NSA's native-sparse-training break from train-dense-then-compress, plus the hybrid linear+sparse shift (Kimi Linear, Samba, Falcon-H1) as the true 2025 frontier. Real, recognizable frontier papers anchor it: NSA (2502.11089), MoBA (2502.13189), XAttention (2503.16428), RWKV-7 (2503.14456), Kimi Linear (2510.26692), Falcon-H1, FlashInfer. Three-track taxonomy (linear/SSM, scaled sparse, KV eviction) plus hybrids traces lineage clearly. Some 2026 entries (IndexCache 2603.12201, L2A 2603.17484, HyLo 2604.24715, SLA 2602.01744) are unverifiable but presented modestly and consistently. Full citation index with IDs+titles. ~12 distinct 2025/2026 cites. Minor: citation counts are decorative and unverifiable."
+    },
+    "pairwise_winner": "B",
+    "winner_confidence": "high",
+    "rationale": "B is broader, more recent (~12 dated 2025/2026 cites vs ~3), and tells the correct story: it identifies the actual frontier shift to natively-trained sparse attention (NSA) and hybrid linear+softmax architectures (Kimi Linear, Samba, Falcon-H1), all anchored to real, recognizable papers. A is cleaner and its 'killed claims' framing looks rigorous, but it bets its conclusion on two unverifiable centerpiece papers (Gated DeltaNet-2, SWAA), omits the hybrid track entirely, and erroneously discards the genuinely-correct Mamba-2 SSD/attention duality. B also surfaces canonical prior art (Longformer, BigBird, Performers, RWKV, RetNet) that A skips, giving stronger coverage with comparable grounding form."
+  },
+  "winner_arm": "sf",
+  "sf_scores": {
+    "recency": 5,
+    "depth_lineage": 5,
+    "coverage": 5,
+    "grounding": 5,
+    "correctness": 4,
+    "n_recent_papers_2025_2026": 12,
+    "notes": "Excellent breadth and a correct, nuanced thesis: FlashAttention persists as infrastructure while the *pattern* it computes changed, with NSA's native-sparse-training break from train-dense-then-compress, plus the hybrid linear+sparse shift (Kimi Linear, Samba, Falcon-H1) as the true 2025 frontier. Real, recognizable frontier papers anchor it: NSA (2502.11089), MoBA (2502.13189), XAttention (2503.16428), RWKV-7 (2503.14456), Kimi Linear (2510.26692), Falcon-H1, FlashInfer. Three-track taxonomy (linear/SSM, scaled sparse, KV eviction) plus hybrids traces lineage clearly. Some 2026 entries (IndexCache 2603.12201, L2A 2603.17484, HyLo 2604.24715, SLA 2602.01744) are unverifiable but presented modestly and consistently. Full citation index with IDs+titles. ~12 distinct 2025/2026 cites. Minor: citation counts are decorative and unverifiable."
+  },
+  "dr_scores": {
+    "recency": 3,
+    "depth_lineage": 3,
+    "coverage": 3,
+    "grounding": 4,
+    "correctness": 3,
+    "n_recent_papers_2025_2026": 3,
+    "notes": "Tight, well-structured, and the 'killed claims' device signals rigor \u2014 but the rigor partly misfires: it kills the SSD/Mamba-2 semiseparable-attention duality as 'overstated,' which is actually a correct, well-established result. The narrative leans heavily on two unverifiable centerpiece papers: 'Gated DeltaNet-2' (arXiv:2605.22791, claimed NVIDIA May 2026) and 'SWAA' (arXiv:2512.10411), neither of which is recognizable, yet they are presented as the recurrent SOTA with precise accuracy tables (53.11 etc.). Coverage is narrow: no MoBA, no Kimi Linear, no hybrid-architecture track \u2014 which is arguably the real 2025 story. Only ~3 genuinely 2025/2026-dated cites with IDs. Grounding form is good (arXiv IDs throughout)."
+  }
+}

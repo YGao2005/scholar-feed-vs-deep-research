@@ -1,0 +1,73 @@
+{
+  "questions": [
+    "q_opt",
+    "q_attn",
+    "q_kv"
+  ],
+  "n_questions": 3,
+  "reps_per_cell": 1,
+  "note": "q_tts (test-time scaling) was attempted but its web-arm run was interrupted by a session limit, so it is excluded; only the 3 complete pairs are reported.",
+  "blind_judge": {
+    "pairwise_wins": {
+      "sf": 3,
+      "dr": 0,
+      "tie": 0
+    },
+    "sf_win_rate": 1.0,
+    "rubric_means_1to5": {
+      "sf": {
+        "recency": 5.0,
+        "depth_lineage": 5.0,
+        "coverage": 5.0,
+        "grounding": 5.0,
+        "correctness": 4.0,
+        "n_recent_papers_2025_2026": 12.0
+      },
+      "dr": {
+        "recency": 3.667,
+        "depth_lineage": 3.333,
+        "coverage": 3.333,
+        "grounding": 4.333,
+        "correctness": 3.0,
+        "n_recent_papers_2025_2026": 5.667
+      }
+    }
+  },
+  "cost_and_grounding": {
+    "sf": {
+      "mean_cost_usd": 0.63,
+      "mean_wall_s": 214.1,
+      "total_cited_ids": 100,
+      "nonexistent_ids": 1
+    },
+    "dr": {
+      "mean_cost_usd": 26.596,
+      "mean_wall_s": 890.1,
+      "total_cited_ids": 38,
+      "nonexistent_ids": 0
+    }
+  },
+  "per_question": [
+    {
+      "question": "q_opt",
+      "blind_winner": "sf",
+      "confidence": "medium",
+      "sf_recent_papers": 13,
+      "dr_recent_papers": 8
+    },
+    {
+      "question": "q_attn",
+      "blind_winner": "sf",
+      "confidence": "high",
+      "sf_recent_papers": 12,
+      "dr_recent_papers": 3
+    },
+    {
+      "question": "q_kv",
+      "blind_winner": "sf",
+      "confidence": "high",
+      "sf_recent_papers": 11,
+      "dr_recent_papers": 6
+    }
+  ]
+}

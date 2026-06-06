@@ -1,0 +1,184 @@
+{
+  "run": "sf_q_attn_01",
+  "arm": "sf",
+  "q": "q",
+  "n_ids": 43,
+  "n_unresolved": 1,
+  "unresolved": [
+    "2112.05682"
+  ],
+  "ids": {
+    "1706.03762": {
+      "exists": true,
+      "arxiv_title": "Attention Is All You Need"
+    },
+    "1904.10509": {
+      "exists": true,
+      "arxiv_title": "Generating Long Sequences with Sparse Transformers"
+    },
+    "1911.02150": {
+      "exists": true,
+      "arxiv_title": "Fast Transformer Decoding: One Write-Head is All You Need"
+    },
+    "2001.04451": {
+      "exists": true,
+      "arxiv_title": "Reformer: The Efficient Transformer"
+    },
+    "2004.05150": {
+      "exists": true,
+      "arxiv_title": "Longformer: The Long-Document Transformer"
+    },
+    "2006.16236": {
+      "exists": true,
+      "arxiv_title": "Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention"
+    },
+    "2007.14062": {
+      "exists": true,
+      "arxiv_title": "Big Bird: Transformers for Longer Sequences"
+    },
+    "2009.14794": {
+      "exists": true,
+      "arxiv_title": "Rethinking Attention with Performers"
+    },
+    "2103.02143": {
+      "exists": true,
+      "arxiv_title": "Random Feature Attention"
+    },
+    "2112.05682": {
+      "exists": false,
+      "arxiv_title": "(lookup error: <urlopen error timed out>)"
+    },
+    "2205.14135": {
+      "exists": true,
+      "arxiv_title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness"
+    },
+    "2305.13048": {
+      "exists": true,
+      "arxiv_title": "RWKV: Reinventing RNNs for the Transformer Era"
+    },
+    "2305.13245": {
+      "exists": true,
+      "arxiv_title": "GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints"
+    },
+    "2305.17118": {
+      "exists": true,
+      "arxiv_title": "Scissorhands: Exploiting the Persistence of Importance Hypothesis for LLM KV Cache Compression at Test Time"
+    },
+    "2306.14048": {
+      "exists": true,
+      "arxiv_title": "H$_2$O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models"
+    },
+    "2307.02486": {
+      "exists": true,
+      "arxiv_title": "LongNet: Scaling Transformers to 1,000,000,000 Tokens"
+    },
+    "2307.08621": {
+      "exists": true,
+      "arxiv_title": "Retentive Network: A Successor to Transformer for Large Language Models"
+    },
+    "2307.08691": {
+      "exists": true,
+      "arxiv_title": "FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning"
+    },
+    "2309.17453": {
+      "exists": true,
+      "arxiv_title": "Efficient Streaming Language Models with Attention Sinks"
+    },
+    "2310.01889": {
+      "exists": true,
+      "arxiv_title": "Ring Attention with Blockwise Transformers for Near-Infinite Context"
+    },
+    "2312.00752": {
+      "exists": true,
+      "arxiv_title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces"
+    },
+    "2312.06635": {
+      "exists": true,
+      "arxiv_title": "Gated Linear Attention Transformers with Hardware-Efficient Training"
+    },
+    "2404.07143": {
+      "exists": true,
+      "arxiv_title": "Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention"
+    },
+    "2404.14469": {
+      "exists": true,
+      "arxiv_title": "SnapKV: LLM Knows What You are Looking for Before Generation"
+    },
+    "2406.06484": {
+      "exists": true,
+      "arxiv_title": "Parallelizing Linear Transformers with the Delta Rule over Sequence Length"
+    },
+    "2406.07522": {
+      "exists": true,
+      "arxiv_title": "Samba: Simple Hybrid State Space Models for Efficient Unlimited Context Language Modeling"
+    },
+    "2406.10774": {
+      "exists": true,
+      "arxiv_title": "Quest: Query-Aware Sparsity for Efficient Long-Context LLM Inference"
+    },
+    "2407.02490": {
+      "exists": true,
+      "arxiv_title": "MInference 1.0: Accelerating Pre-filling for Long-Context LLMs via Dynamic Sparse Attention"
+    },
+    "2407.08608": {
+      "exists": true,
+      "arxiv_title": "FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision"
+    },
+    "2410.13276": {
+      "exists": true,
+      "arxiv_title": "SeerAttention: Learning Intrinsic Sparse Attention in Your LLMs"
+    },
+    "2412.06464": {
+      "exists": true,
+      "arxiv_title": "Gated Delta Networks: Improving Mamba2 with Delta Rule"
+    },
+    "2501.01005": {
+      "exists": true,
+      "arxiv_title": "FlashInfer: Efficient and Customizable Attention Engine for LLM Inference Serving"
+    },
+    "2502.11089": {
+      "exists": true,
+      "arxiv_title": "Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention"
+    },
+    "2502.13189": {
+      "exists": true,
+      "arxiv_title": "MoBA: Mixture of Block Attention for Long-Context LLMs"
+    },
+    "2503.14456": {
+      "exists": true,
+      "arxiv_title": "RWKV-7 \"Goose\" with Expressive Dynamic State Evolution"
+    },
+    "2503.16428": {
+      "exists": true,
+      "arxiv_title": "XAttention: Block Sparse Attention with Antidiagonal Scoring"
+    },
+    "2507.22448": {
+      "exists": true,
+      "arxiv_title": "Falcon-H1: A Family of Hybrid-Head Language Models Redefining Efficiency and Performance"
+    },
+    "2510.26692": {
+      "exists": true,
+      "arxiv_title": "Kimi Linear: An Expressive, Efficient Attention Architecture"
+    },
+    "2511.11571": {
+      "exists": true,
+      "arxiv_title": "Optimizing Mixture of Block Attention"
+    },
+    "2602.01744": {
+      "exists": true,
+      "arxiv_title": "Softmax Linear Attention: Reclaiming Global Competition"
+    },
+    "2603.12201": {
+      "exists": true,
+      "arxiv_title": "IndexCache: Accelerating Sparse Attention via Cross-Layer Index Reuse"
+    },
+    "2603.17484": {
+      "exists": true,
+      "arxiv_title": "Learning When to Attend: Conditional Memory Access for Long-Context LLMs"
+    },
+    "2604.24715": {
+      "exists": true,
+      "arxiv_title": "Long-Context Aware Upcycling: A New Frontier for Hybrid LLM Scaling"
+    }
+  }
+}

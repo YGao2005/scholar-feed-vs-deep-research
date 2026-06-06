@@ -1,0 +1,154 @@
+{
+  "run": "sf_q_kv_01",
+  "arm": "sf",
+  "q": "q",
+  "n_ids": 36,
+  "n_unresolved": 0,
+  "unresolved": [],
+  "ids": {
+    "1911.02150": {
+      "exists": true,
+      "arxiv_title": "Fast Transformer Decoding: One Write-Head is All You Need"
+    },
+    "2303.06865": {
+      "exists": true,
+      "arxiv_title": "FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU"
+    },
+    "2305.13245": {
+      "exists": true,
+      "arxiv_title": "GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints"
+    },
+    "2305.17118": {
+      "exists": true,
+      "arxiv_title": "Scissorhands: Exploiting the Persistence of Importance Hypothesis for LLM KV Cache Compression at Test Time"
+    },
+    "2306.14048": {
+      "exists": true,
+      "arxiv_title": "H$_2$O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models"
+    },
+    "2309.17453": {
+      "exists": true,
+      "arxiv_title": "Efficient Streaming Language Models with Attention Sinks"
+    },
+    "2310.01801": {
+      "exists": true,
+      "arxiv_title": "Model Tells You What to Discard: Adaptive KV Cache Compression for LLMs"
+    },
+    "2401.18079": {
+      "exists": true,
+      "arxiv_title": "KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization"
+    },
+    "2402.02750": {
+      "exists": true,
+      "arxiv_title": "KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache"
+    },
+    "2402.18096": {
+      "exists": true,
+      "arxiv_title": "No Token Left Behind: Reliable KV Cache Compression via Importance-Aware Mixed Precision Quantization"
+    },
+    "2403.09636": {
+      "exists": true,
+      "arxiv_title": "Dynamic Memory Compression: Retrofitting LLMs for Accelerated Inference"
+    },
+    "2404.14469": {
+      "exists": true,
+      "arxiv_title": "SnapKV: LLM Knows What You are Looking for Before Generation"
+    },
+    "2405.12532": {
+      "exists": true,
+      "arxiv_title": "PyramidInfer: Pyramid KV Cache Compression for High-throughput LLM Inference"
+    },
+    "2405.12981": {
+      "exists": true,
+      "arxiv_title": "Reducing Transformer Key-Value Cache Size with Cross-Layer Attention"
+    },
+    "2405.14366": {
+      "exists": true,
+      "arxiv_title": "MiniCache: KV Cache Compression in Depth Dimension for Large Language Models"
+    },
+    "2406.02069": {
+      "exists": true,
+      "arxiv_title": "PyramidKV: Dynamic KV Cache Compression based on Pyramidal Information Funneling"
+    },
+    "2406.10774": {
+      "exists": true,
+      "arxiv_title": "Quest: Query-Aware Sparsity for Efficient Long-Context LLM Inference"
+    },
+    "2406.11430": {
+      "exists": true,
+      "arxiv_title": "A Simple and Effective $L_2$ Norm-Based Strategy for KV Cache Compression"
+    },
+    "2406.19707": {
+      "exists": true,
+      "arxiv_title": "InfiniGen: Efficient Generative Inference of Large Language Models with Dynamic KV Cache Management"
+    },
+    "2407.02490": {
+      "exists": true,
+      "arxiv_title": "MInference 1.0: Accelerating Pre-filling for Long-Context LLMs via Dynamic Sparse Attention"
+    },
+    "2407.11550": {
+      "exists": true,
+      "arxiv_title": "Ada-KV: Optimizing KV Cache Eviction by Adaptive Budget Allocation for Efficient LLM Inference"
+    },
+    "2407.21018": {
+      "exists": true,
+      "arxiv_title": "ThinK: Thinner Key Cache by Query-Driven Pruning"
+    },
+    "2407.21118": {
+      "exists": true,
+      "arxiv_title": "Palu: Compressing KV-Cache with Low-Rank Projection"
+    },
+    "2410.10819": {
+      "exists": true,
+      "arxiv_title": "DuoAttention: Efficient Long-Context LLM Inference with Retrieval and Streaming Heads"
+    },
+    "2410.21465": {
+      "exists": true,
+      "arxiv_title": "ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference"
+    },
+    "2503.16163": {
+      "exists": true,
+      "arxiv_title": "SpeCache: Speculative Key-Value Caching for Efficient Generation of LLMs"
+    },
+    "2505.23416": {
+      "exists": true,
+      "arxiv_title": "KVzip: Query-Agnostic KV Cache Compression with Context Reconstruction"
+    },
+    "2509.09754": {
+      "exists": true,
+      "arxiv_title": "LAVa: Layer-wise KV Cache Eviction with Dynamic Budget Allocation"
+    },
+    "2512.14946": {
+      "exists": true,
+      "arxiv_title": "EVICPRESS: Joint KV-Cache Compression and Eviction for Efficient LLM Serving"
+    },
+    "2601.17668": {
+      "exists": true,
+      "arxiv_title": "Fast KVzip: Efficient and Accurate LLM Inference with Gated KV Eviction"
+    },
+    "2602.07721": {
+      "exists": true,
+      "arxiv_title": "ParisKV: Fast and Drift-Robust KV-Cache Retrieval for Long-Context LLMs"
+    },
+    "2603.16435": {
+      "exists": true,
+      "arxiv_title": "VQKV: High-Fidelity and High-Ratio Cache Compression via Vector-Quantization"
+    },
+    "2605.08317": {
+      "exists": true,
+      "arxiv_title": "RDKV: Rate-Distortion Bit Allocation for Joint Eviction and Quantization of the KV Cache"
+    },
+    "2605.11478": {
+      "exists": true,
+      "arxiv_title": "FibQuant: Universal Vector Quantization for Random-Access KV-Cache Compression"
+    },
+    "2606.01563": {
+      "exists": true,
+      "arxiv_title": "MomentKV: Closing the Directional Gap in KV Cache Eviction for Long-Context Inference"
+    },
+    "2606.03928": {
+      "exists": true,
+      "arxiv_title": "Value-Aware Stochastic KV Cache Eviction for Reasoning Models"
+    }
+  }
+}

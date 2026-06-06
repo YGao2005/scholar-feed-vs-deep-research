@@ -1,0 +1,49 @@
+{
+  "q": "q_opt",
+  "rep": 1,
+  "armA": "dr",
+  "armB": "sf",
+  "verdict": {
+    "report_A": {
+      "recency": 4,
+      "depth_lineage": 4,
+      "coverage": 4,
+      "grounding": 5,
+      "correctness": 3,
+      "n_recent_papers_2025_2026": 8,
+      "notes": "Strong intellectual honesty via adversarial-verification framing, and uniquely includes the Modular Duality theoretical foundation (2409.20325) that grounds Muon as spectral-norm steepest descent. However, it characterizes Fantastic Pretraining Optimizers (2509.02046) as 'SOAP/Kron beat Muon at 8x+ Chinchilla,' a specific regime claim that looks dubious. Its self-refutation of the Moonlight ~2x efficiency figure is over-cautious \u2014 that is actually the paper's stated result \u2014 which paradoxically removes a true claim. Newton-Muon (2604.01472) and a couple of 2026 IDs are speculative/future-dated. Misses original Adam paper and explicit Sophia/Lion lineage."
+    },
+    "report_B": {
+      "recency": 5,
+      "depth_lineage": 5,
+      "coverage": 5,
+      "grounding": 5,
+      "correctness": 4,
+      "n_recent_papers_2025_2026": 13,
+      "notes": "Cleanest lineage: Adam(1412.6980)->AdamW->why-transformers-need-Adam Hessian work(2402.16788)->Shampoo/Sophia/Lion->SOAP(2409.11321)->Muon->2026 successor table. Accurately characterizes Fantastic Pretraining Optimizers (1.4x small / ~1.1x large after fair comparison), matching what that paper actually found, and correctly frames the Moonlight ~2x claim. Minor technical slip: calls Muon's spectral-norm steepest descent 'equivalently the nuclear norm' (nuclear is the dual). The large block of 2026 Muon-variant papers adds breadth but several may be unverifiable/speculative. Broadest coverage and most recent papers of the two."
+    },
+    "pairwise_winner": "B",
+    "winner_confidence": "medium",
+    "rationale": "Both correctly land on Muon-family as the current best for small-model pretraining and both cite the key 2025 anchors (Moonlight 2502.16982, Fantastic Pretraining 2509.02046). B wins on coverage and recency: it includes the original Adam paper, the Hessian-heterogeneity justification for Adam (2402.16788), Sophia/Lion, and a denser 2025-2026 successor set, and it characterizes the Fantastic Pretraining 'fair-comparison' speedups (~1.4x/~1.1x) accurately. A's distinctive strength is the Modular Duality theoretical grounding and its honest flagging of unreliable magnitudes, but its '8x Chinchilla SOAP/Kron beats Muon' regime claim looks off and its self-refutation of the genuine Moonlight 2x result discards a correct claim. B's only notable error (spectral\u2248nuclear norm) is minor by comparison."
+  },
+  "winner_arm": "sf",
+  "sf_scores": {
+    "recency": 5,
+    "depth_lineage": 5,
+    "coverage": 5,
+    "grounding": 5,
+    "correctness": 4,
+    "n_recent_papers_2025_2026": 13,
+    "notes": "Cleanest lineage: Adam(1412.6980)->AdamW->why-transformers-need-Adam Hessian work(2402.16788)->Shampoo/Sophia/Lion->SOAP(2409.11321)->Muon->2026 successor table. Accurately characterizes Fantastic Pretraining Optimizers (1.4x small / ~1.1x large after fair comparison), matching what that paper actually found, and correctly frames the Moonlight ~2x claim. Minor technical slip: calls Muon's spectral-norm steepest descent 'equivalently the nuclear norm' (nuclear is the dual). The large block of 2026 Muon-variant papers adds breadth but several may be unverifiable/speculative. Broadest coverage and most recent papers of the two."
+  },
+  "dr_scores": {
+    "recency": 4,
+    "depth_lineage": 4,
+    "coverage": 4,
+    "grounding": 5,
+    "correctness": 3,
+    "n_recent_papers_2025_2026": 8,
+    "notes": "Strong intellectual honesty via adversarial-verification framing, and uniquely includes the Modular Duality theoretical foundation (2409.20325) that grounds Muon as spectral-norm steepest descent. However, it characterizes Fantastic Pretraining Optimizers (2509.02046) as 'SOAP/Kron beat Muon at 8x+ Chinchilla,' a specific regime claim that looks dubious. Its self-refutation of the Moonlight ~2x efficiency figure is over-cautious \u2014 that is actually the paper's stated result \u2014 which paradoxically removes a true claim. Newton-Muon (2604.01472) and a couple of 2026 IDs are speculative/future-dated. Misses original Adam paper and explicit Sophia/Lion lineage."
+  },
+  "judge_cost_usd": 0.23075724999999997
+}

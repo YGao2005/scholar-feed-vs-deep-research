@@ -1,0 +1,50 @@
+{
+  "run": "dr_q_attn_01",
+  "arm": "dr",
+  "q": "q",
+  "n_ids": 10,
+  "n_unresolved": 0,
+  "unresolved": [],
+  "ids": {
+    "2205.14135": {
+      "exists": true,
+      "arxiv_title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness"
+    },
+    "2307.08691": {
+      "exists": true,
+      "arxiv_title": "FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning"
+    },
+    "2312.00752": {
+      "exists": true,
+      "arxiv_title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces"
+    },
+    "2312.06635": {
+      "exists": true,
+      "arxiv_title": "Gated Linear Attention Transformers with Hardware-Efficient Training"
+    },
+    "2407.08608": {
+      "exists": true,
+      "arxiv_title": "FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision"
+    },
+    "2412.06464": {
+      "exists": true,
+      "arxiv_title": "Gated Delta Networks: Improving Mamba2 with Delta Rule"
+    },
+    "2502.11089": {
+      "exists": true,
+      "arxiv_title": "Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention"
+    },
+    "2510.17896": {
+      "exists": true,
+      "arxiv_title": "Long-Context Attention Benchmark: From Kernel Efficiency to Distributed Context Parallelism"
+    },
+    "2512.10411": {
+      "exists": true,
+      "arxiv_title": "SWAA: Sliding Window Attention Adaptation for Efficient and Quality Preserving Long Context Processing"
+    },
+    "2605.22791": {
+      "exists": true,
+      "arxiv_title": "Gated DeltaNet-2: Decoupling Erase and Write in Linear Attention"
+    }
+  }
+}

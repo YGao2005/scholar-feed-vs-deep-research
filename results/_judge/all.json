@@ -1,0 +1,147 @@
+[
+  {
+    "q": "q_attn",
+    "rep": 1,
+    "armA": "dr",
+    "armB": "sf",
+    "verdict": {
+      "report_A": {
+        "recency": 3,
+        "depth_lineage": 3,
+        "coverage": 3,
+        "grounding": 4,
+        "correctness": 3,
+        "n_recent_papers_2025_2026": 3,
+        "notes": "Tight, well-structured, and the 'killed claims' device signals rigor \u2014 but the rigor partly misfires: it kills the SSD/Mamba-2 semiseparable-attention duality as 'overstated,' which is actually a correct, well-established result. The narrative leans heavily on two unverifiable centerpiece papers: 'Gated DeltaNet-2' (arXiv:2605.22791, claimed NVIDIA May 2026) and 'SWAA' (arXiv:2512.10411), neither of which is recognizable, yet they are presented as the recurrent SOTA with precise accuracy tables (53.11 etc.). Coverage is narrow: no MoBA, no Kimi Linear, no hybrid-architecture track \u2014 which is arguably the real 2025 story. Only ~3 genuinely 2025/2026-dated cites with IDs. Grounding form is good (arXiv IDs throughout)."
+      },
+      "report_B": {
+        "recency": 5,
+        "depth_lineage": 5,
+        "coverage": 5,
+        "grounding": 5,
+        "correctness": 4,
+        "n_recent_papers_2025_2026": 12,
+        "notes": "Excellent breadth and a correct, nuanced thesis: FlashAttention persists as infrastructure while the *pattern* it computes changed, with NSA's native-sparse-training break from train-dense-then-compress, plus the hybrid linear+sparse shift (Kimi Linear, Samba, Falcon-H1) as the true 2025 frontier. Real, recognizable frontier papers anchor it: NSA (2502.11089), MoBA (2502.13189), XAttention (2503.16428), RWKV-7 (2503.14456), Kimi Linear (2510.26692), Falcon-H1, FlashInfer. Three-track taxonomy (linear/SSM, scaled sparse, KV eviction) plus hybrids traces lineage clearly. Some 2026 entries (IndexCache 2603.12201, L2A 2603.17484, HyLo 2604.24715, SLA 2602.01744) are unverifiable but presented modestly and consistently. Full citation index with IDs+titles. ~12 distinct 2025/2026 cites. Minor: citation counts are decorative and unverifiable."
+      },
+      "pairwise_winner": "B",
+      "winner_confidence": "high",
+      "rationale": "B is broader, more recent (~12 dated 2025/2026 cites vs ~3), and tells the correct story: it identifies the actual frontier shift to natively-trained sparse attention (NSA) and hybrid linear+softmax architectures (Kimi Linear, Samba, Falcon-H1), all anchored to real, recognizable papers. A is cleaner and its 'killed claims' framing looks rigorous, but it bets its conclusion on two unverifiable centerpiece papers (Gated DeltaNet-2, SWAA), omits the hybrid track entirely, and erroneously discards the genuinely-correct Mamba-2 SSD/attention duality. B also surfaces canonical prior art (Longformer, BigBird, Performers, RWKV, RetNet) that A skips, giving stronger coverage with comparable grounding form."
+    },
+    "winner_arm": "sf",
+    "sf_scores": {
+      "recency": 5,
+      "depth_lineage": 5,
+      "coverage": 5,
+      "grounding": 5,
+      "correctness": 4,
+      "n_recent_papers_2025_2026": 12,
+      "notes": "Excellent breadth and a correct, nuanced thesis: FlashAttention persists as infrastructure while the *pattern* it computes changed, with NSA's native-sparse-training break from train-dense-then-compress, plus the hybrid linear+sparse shift (Kimi Linear, Samba, Falcon-H1) as the true 2025 frontier. Real, recognizable frontier papers anchor it: NSA (2502.11089), MoBA (2502.13189), XAttention (2503.16428), RWKV-7 (2503.14456), Kimi Linear (2510.26692), Falcon-H1, FlashInfer. Three-track taxonomy (linear/SSM, scaled sparse, KV eviction) plus hybrids traces lineage clearly. Some 2026 entries (IndexCache 2603.12201, L2A 2603.17484, HyLo 2604.24715, SLA 2602.01744) are unverifiable but presented modestly and consistently. Full citation index with IDs+titles. ~12 distinct 2025/2026 cites. Minor: citation counts are decorative and unverifiable."
+    },
+    "dr_scores": {
+      "recency": 3,
+      "depth_lineage": 3,
+      "coverage": 3,
+      "grounding": 4,
+      "correctness": 3,
+      "n_recent_papers_2025_2026": 3,
+      "notes": "Tight, well-structured, and the 'killed claims' device signals rigor \u2014 but the rigor partly misfires: it kills the SSD/Mamba-2 semiseparable-attention duality as 'overstated,' which is actually a correct, well-established result. The narrative leans heavily on two unverifiable centerpiece papers: 'Gated DeltaNet-2' (arXiv:2605.22791, claimed NVIDIA May 2026) and 'SWAA' (arXiv:2512.10411), neither of which is recognizable, yet they are presented as the recurrent SOTA with precise accuracy tables (53.11 etc.). Coverage is narrow: no MoBA, no Kimi Linear, no hybrid-architecture track \u2014 which is arguably the real 2025 story. Only ~3 genuinely 2025/2026-dated cites with IDs. Grounding form is good (arXiv IDs throughout)."
+    }
+  },
+  {
+    "q": "q_kv",
+    "rep": 1,
+    "armA": "dr",
+    "armB": "sf",
+    "verdict": {
+      "report_A": {
+        "recency": 4,
+        "depth_lineage": 3,
+        "coverage": 3,
+        "grounding": 4,
+        "correctness": 3,
+        "n_recent_papers_2025_2026": 6,
+        "notes": "Solid on the canonical anchors with correct arXiv ids (H2O 2306.14048, StreamingLLM 2309.17453, KVQuant 2401.18079, KIVI 2402.02750, GEAR 2403.05527, PyramidKV 2406.02069, RocketKV 2502.14051). The adversarial 'vote/killed-claim' framing adds welcome calibration (e.g. flagging the 10M-context title and StreamingLLM-extends-context myths). But coverage of classical eviction is thin: SnapKV, Scissorhands, Quest, FASTGEN, MQA/GQA appear only in passing or not at all, despite SnapKV being the de-facto modern baseline. Clear internal error: KQ-SVD labeled 'late 2024' but assigned arXiv:2512.05916 (=Dec 2025); KQ-SVD and 'Don't be so Stief' (2601.21686) look possibly fabricated. ~6 distinct 2025-2026 papers (RocketKV, RotateKV, PolarQuant, ReCalKV, KQ-SVD, Don't be so Stief)."
+      },
+      "report_B": {
+        "recency": 5,
+        "depth_lineage": 5,
+        "coverage": 5,
+        "grounding": 5,
+        "correctness": 4,
+        "n_recent_papers_2025_2026": 11,
+        "notes": "Far more comprehensive and the lineage narrative is excellent: architecture foundations (MQA 1911.02150, GQA 2305.13245, FlexGen 2303.06865) -> classical eviction (H2O, Scissorhands 2305.17118, StreamingLLM, FASTGEN 2310.01801) -> quantization (KVQuant, KIVI) -> prompt-aware (SnapKV 2404.14469, Quest 2406.10774, PyramidKV) -> head/layer differentiation (DuoAttention 2410.10819, Ada-KV 2407.11550, ShadowKV 2410.21465) -> query-agnostic/joint (KVzip 2505.23416) -> 2026 frontier. The 2023-2024 ids and who-superseded-whom story are highly accurate and match the subfield. Grounding is strong (id+title+authors+citations). Main risk: the dense 2026 batch (RDKV 2605.08317, MomentKV 2606.01563, ParisKV 2602.07721, VaSE 2606.03928, FibQuant 2605.11478, VQKV 2603.16435) is unverifiable and carries some fabrication risk, but is well-specified. ~11 distinct 2025-2026 papers."
+      },
+      "pairwise_winner": "B",
+      "winner_confidence": "high",
+      "rationale": "B wins decisively on depth, coverage, and recency: it traces a genuine multi-phase lineage from MQA/GQA/FlexGen through the three 2023 eviction anchors, the SnapKV/Quest prompt-aware shift, head-differentiation (DuoAttention/Ada-KV), and into a query-agnostic + rate-distortion frontier, with ~11 distinct 2025-2026 citations versus A's ~6. B's verifiable 2023-2024 ids and supersession narrative are accurate, whereas A omits SnapKV, Scissorhands, and Quest as anchors and contains a clear internal error (KQ-SVD called 'late 2024' but tagged arXiv:2512 = Dec 2025). A's only real edge is its adversarial verification flagging refuted claims, which is good calibration, but it does not offset the coverage and lineage gap; both reports share some fabrication risk in their newest citations."
+    },
+    "winner_arm": "sf",
+    "sf_scores": {
+      "recency": 5,
+      "depth_lineage": 5,
+      "coverage": 5,
+      "grounding": 5,
+      "correctness": 4,
+      "n_recent_papers_2025_2026": 11,
+      "notes": "Far more comprehensive and the lineage narrative is excellent: architecture foundations (MQA 1911.02150, GQA 2305.13245, FlexGen 2303.06865) -> classical eviction (H2O, Scissorhands 2305.17118, StreamingLLM, FASTGEN 2310.01801) -> quantization (KVQuant, KIVI) -> prompt-aware (SnapKV 2404.14469, Quest 2406.10774, PyramidKV) -> head/layer differentiation (DuoAttention 2410.10819, Ada-KV 2407.11550, ShadowKV 2410.21465) -> query-agnostic/joint (KVzip 2505.23416) -> 2026 frontier. The 2023-2024 ids and who-superseded-whom story are highly accurate and match the subfield. Grounding is strong (id+title+authors+citations). Main risk: the dense 2026 batch (RDKV 2605.08317, MomentKV 2606.01563, ParisKV 2602.07721, VaSE 2606.03928, FibQuant 2605.11478, VQKV 2603.16435) is unverifiable and carries some fabrication risk, but is well-specified. ~11 distinct 2025-2026 papers."
+    },
+    "dr_scores": {
+      "recency": 4,
+      "depth_lineage": 3,
+      "coverage": 3,
+      "grounding": 4,
+      "correctness": 3,
+      "n_recent_papers_2025_2026": 6,
+      "notes": "Solid on the canonical anchors with correct arXiv ids (H2O 2306.14048, StreamingLLM 2309.17453, KVQuant 2401.18079, KIVI 2402.02750, GEAR 2403.05527, PyramidKV 2406.02069, RocketKV 2502.14051). The adversarial 'vote/killed-claim' framing adds welcome calibration (e.g. flagging the 10M-context title and StreamingLLM-extends-context myths). But coverage of classical eviction is thin: SnapKV, Scissorhands, Quest, FASTGEN, MQA/GQA appear only in passing or not at all, despite SnapKV being the de-facto modern baseline. Clear internal error: KQ-SVD labeled 'late 2024' but assigned arXiv:2512.05916 (=Dec 2025); KQ-SVD and 'Don't be so Stief' (2601.21686) look possibly fabricated. ~6 distinct 2025-2026 papers (RocketKV, RotateKV, PolarQuant, ReCalKV, KQ-SVD, Don't be so Stief)."
+    }
+  },
+  {
+    "q": "q_opt",
+    "rep": 1,
+    "armA": "dr",
+    "armB": "sf",
+    "verdict": {
+      "report_A": {
+        "recency": 4,
+        "depth_lineage": 4,
+        "coverage": 4,
+        "grounding": 5,
+        "correctness": 3,
+        "n_recent_papers_2025_2026": 8,
+        "notes": "Strong intellectual honesty via adversarial-verification framing, and uniquely includes the Modular Duality theoretical foundation (2409.20325) that grounds Muon as spectral-norm steepest descent. However, it characterizes Fantastic Pretraining Optimizers (2509.02046) as 'SOAP/Kron beat Muon at 8x+ Chinchilla,' a specific regime claim that looks dubious. Its self-refutation of the Moonlight ~2x efficiency figure is over-cautious \u2014 that is actually the paper's stated result \u2014 which paradoxically removes a true claim. Newton-Muon (2604.01472) and a couple of 2026 IDs are speculative/future-dated. Misses original Adam paper and explicit Sophia/Lion lineage."
+      },
+      "report_B": {
+        "recency": 5,
+        "depth_lineage": 5,
+        "coverage": 5,
+        "grounding": 5,
+        "correctness": 4,
+        "n_recent_papers_2025_2026": 13,
+        "notes": "Cleanest lineage: Adam(1412.6980)->AdamW->why-transformers-need-Adam Hessian work(2402.16788)->Shampoo/Sophia/Lion->SOAP(2409.11321)->Muon->2026 successor table. Accurately characterizes Fantastic Pretraining Optimizers (1.4x small / ~1.1x large after fair comparison), matching what that paper actually found, and correctly frames the Moonlight ~2x claim. Minor technical slip: calls Muon's spectral-norm steepest descent 'equivalently the nuclear norm' (nuclear is the dual). The large block of 2026 Muon-variant papers adds breadth but several may be unverifiable/speculative. Broadest coverage and most recent papers of the two."
+      },
+      "pairwise_winner": "B",
+      "winner_confidence": "medium",
+      "rationale": "Both correctly land on Muon-family as the current best for small-model pretraining and both cite the key 2025 anchors (Moonlight 2502.16982, Fantastic Pretraining 2509.02046). B wins on coverage and recency: it includes the original Adam paper, the Hessian-heterogeneity justification for Adam (2402.16788), Sophia/Lion, and a denser 2025-2026 successor set, and it characterizes the Fantastic Pretraining 'fair-comparison' speedups (~1.4x/~1.1x) accurately. A's distinctive strength is the Modular Duality theoretical grounding and its honest flagging of unreliable magnitudes, but its '8x Chinchilla SOAP/Kron beats Muon' regime claim looks off and its self-refutation of the genuine Moonlight 2x result discards a correct claim. B's only notable error (spectral\u2248nuclear norm) is minor by comparison."
+    },
+    "winner_arm": "sf",
+    "sf_scores": {
+      "recency": 5,
+      "depth_lineage": 5,
+      "coverage": 5,
+      "grounding": 5,
+      "correctness": 4,
+      "n_recent_papers_2025_2026": 13,
+      "notes": "Cleanest lineage: Adam(1412.6980)->AdamW->why-transformers-need-Adam Hessian work(2402.16788)->Shampoo/Sophia/Lion->SOAP(2409.11321)->Muon->2026 successor table. Accurately characterizes Fantastic Pretraining Optimizers (1.4x small / ~1.1x large after fair comparison), matching what that paper actually found, and correctly frames the Moonlight ~2x claim. Minor technical slip: calls Muon's spectral-norm steepest descent 'equivalently the nuclear norm' (nuclear is the dual). The large block of 2026 Muon-variant papers adds breadth but several may be unverifiable/speculative. Broadest coverage and most recent papers of the two."
+    },
+    "dr_scores": {
+      "recency": 4,
+      "depth_lineage": 4,
+      "coverage": 4,
+      "grounding": 5,
+      "correctness": 3,
+      "n_recent_papers_2025_2026": 8,
+      "notes": "Strong intellectual honesty via adversarial-verification framing, and uniquely includes the Modular Duality theoretical foundation (2409.20325) that grounds Muon as spectral-norm steepest descent. However, it characterizes Fantastic Pretraining Optimizers (2509.02046) as 'SOAP/Kron beat Muon at 8x+ Chinchilla,' a specific regime claim that looks dubious. Its self-refutation of the Moonlight ~2x efficiency figure is over-cautious \u2014 that is actually the paper's stated result \u2014 which paradoxically removes a true claim. Newton-Muon (2604.01472) and a couple of 2026 IDs are speculative/future-dated. Misses original Adam paper and explicit Sophia/Lion lineage."
+    },
+    "judge_cost_usd": 0.23075724999999997
+  }
+]

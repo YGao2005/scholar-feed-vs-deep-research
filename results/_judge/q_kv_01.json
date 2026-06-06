@@ -1,0 +1,48 @@
+{
+  "q": "q_kv",
+  "rep": 1,
+  "armA": "dr",
+  "armB": "sf",
+  "verdict": {
+    "report_A": {
+      "recency": 4,
+      "depth_lineage": 3,
+      "coverage": 3,
+      "grounding": 4,
+      "correctness": 3,
+      "n_recent_papers_2025_2026": 6,
+      "notes": "Solid on the canonical anchors with correct arXiv ids (H2O 2306.14048, StreamingLLM 2309.17453, KVQuant 2401.18079, KIVI 2402.02750, GEAR 2403.05527, PyramidKV 2406.02069, RocketKV 2502.14051). The adversarial 'vote/killed-claim' framing adds welcome calibration (e.g. flagging the 10M-context title and StreamingLLM-extends-context myths). But coverage of classical eviction is thin: SnapKV, Scissorhands, Quest, FASTGEN, MQA/GQA appear only in passing or not at all, despite SnapKV being the de-facto modern baseline. Clear internal error: KQ-SVD labeled 'late 2024' but assigned arXiv:2512.05916 (=Dec 2025); KQ-SVD and 'Don't be so Stief' (2601.21686) look possibly fabricated. ~6 distinct 2025-2026 papers (RocketKV, RotateKV, PolarQuant, ReCalKV, KQ-SVD, Don't be so Stief)."
+    },
+    "report_B": {
+      "recency": 5,
+      "depth_lineage": 5,
+      "coverage": 5,
+      "grounding": 5,
+      "correctness": 4,
+      "n_recent_papers_2025_2026": 11,
+      "notes": "Far more comprehensive and the lineage narrative is excellent: architecture foundations (MQA 1911.02150, GQA 2305.13245, FlexGen 2303.06865) -> classical eviction (H2O, Scissorhands 2305.17118, StreamingLLM, FASTGEN 2310.01801) -> quantization (KVQuant, KIVI) -> prompt-aware (SnapKV 2404.14469, Quest 2406.10774, PyramidKV) -> head/layer differentiation (DuoAttention 2410.10819, Ada-KV 2407.11550, ShadowKV 2410.21465) -> query-agnostic/joint (KVzip 2505.23416) -> 2026 frontier. The 2023-2024 ids and who-superseded-whom story are highly accurate and match the subfield. Grounding is strong (id+title+authors+citations). Main risk: the dense 2026 batch (RDKV 2605.08317, MomentKV 2606.01563, ParisKV 2602.07721, VaSE 2606.03928, FibQuant 2605.11478, VQKV 2603.16435) is unverifiable and carries some fabrication risk, but is well-specified. ~11 distinct 2025-2026 papers."
+    },
+    "pairwise_winner": "B",
+    "winner_confidence": "high",
+    "rationale": "B wins decisively on depth, coverage, and recency: it traces a genuine multi-phase lineage from MQA/GQA/FlexGen through the three 2023 eviction anchors, the SnapKV/Quest prompt-aware shift, head-differentiation (DuoAttention/Ada-KV), and into a query-agnostic + rate-distortion frontier, with ~11 distinct 2025-2026 citations versus A's ~6. B's verifiable 2023-2024 ids and supersession narrative are accurate, whereas A omits SnapKV, Scissorhands, and Quest as anchors and contains a clear internal error (KQ-SVD called 'late 2024' but tagged arXiv:2512 = Dec 2025). A's only real edge is its adversarial verification flagging refuted claims, which is good calibration, but it does not offset the coverage and lineage gap; both reports share some fabrication risk in their newest citations."
+  },
+  "winner_arm": "sf",
+  "sf_scores": {
+    "recency": 5,
+    "depth_lineage": 5,
+    "coverage": 5,
+    "grounding": 5,
+    "correctness": 4,
+    "n_recent_papers_2025_2026": 11,
+    "notes": "Far more comprehensive and the lineage narrative is excellent: architecture foundations (MQA 1911.02150, GQA 2305.13245, FlexGen 2303.06865) -> classical eviction (H2O, Scissorhands 2305.17118, StreamingLLM, FASTGEN 2310.01801) -> quantization (KVQuant, KIVI) -> prompt-aware (SnapKV 2404.14469, Quest 2406.10774, PyramidKV) -> head/layer differentiation (DuoAttention 2410.10819, Ada-KV 2407.11550, ShadowKV 2410.21465) -> query-agnostic/joint (KVzip 2505.23416) -> 2026 frontier. The 2023-2024 ids and who-superseded-whom story are highly accurate and match the subfield. Grounding is strong (id+title+authors+citations). Main risk: the dense 2026 batch (RDKV 2605.08317, MomentKV 2606.01563, ParisKV 2602.07721, VaSE 2606.03928, FibQuant 2605.11478, VQKV 2603.16435) is unverifiable and carries some fabrication risk, but is well-specified. ~11 distinct 2025-2026 papers."
+  },
+  "dr_scores": {
+    "recency": 4,
+    "depth_lineage": 3,
+    "coverage": 3,
+    "grounding": 4,
+    "correctness": 3,
+    "n_recent_papers_2025_2026": 6,
+    "notes": "Solid on the canonical anchors with correct arXiv ids (H2O 2306.14048, StreamingLLM 2309.17453, KVQuant 2401.18079, KIVI 2402.02750, GEAR 2403.05527, PyramidKV 2406.02069, RocketKV 2502.14051). The adversarial 'vote/killed-claim' framing adds welcome calibration (e.g. flagging the 10M-context title and StreamingLLM-extends-context myths). But coverage of classical eviction is thin: SnapKV, Scissorhands, Quest, FASTGEN, MQA/GQA appear only in passing or not at all, despite SnapKV being the de-facto modern baseline. Clear internal error: KQ-SVD labeled 'late 2024' but assigned arXiv:2512.05916 (=Dec 2025); KQ-SVD and 'Don't be so Stief' (2601.21686) look possibly fabricated. ~6 distinct 2025-2026 papers (RocketKV, RotateKV, PolarQuant, ReCalKV, KQ-SVD, Don't be so Stief)."
+  }
+}

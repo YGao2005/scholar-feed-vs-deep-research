@@ -1,0 +1,775 @@
+[
+  {
+    "run": "dr_q_attn_01",
+    "arm": "dr",
+    "q": "q",
+    "n_ids": 10,
+    "n_unresolved": 0,
+    "unresolved": [],
+    "ids": {
+      "2205.14135": {
+        "exists": true,
+        "arxiv_title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness"
+      },
+      "2307.08691": {
+        "exists": true,
+        "arxiv_title": "FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning"
+      },
+      "2312.00752": {
+        "exists": true,
+        "arxiv_title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces"
+      },
+      "2312.06635": {
+        "exists": true,
+        "arxiv_title": "Gated Linear Attention Transformers with Hardware-Efficient Training"
+      },
+      "2407.08608": {
+        "exists": true,
+        "arxiv_title": "FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision"
+      },
+      "2412.06464": {
+        "exists": true,
+        "arxiv_title": "Gated Delta Networks: Improving Mamba2 with Delta Rule"
+      },
+      "2502.11089": {
+        "exists": true,
+        "arxiv_title": "Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention"
+      },
+      "2510.17896": {
+        "exists": true,
+        "arxiv_title": "Long-Context Attention Benchmark: From Kernel Efficiency to Distributed Context Parallelism"
+      },
+      "2512.10411": {
+        "exists": true,
+        "arxiv_title": "SWAA: Sliding Window Attention Adaptation for Efficient and Quality Preserving Long Context Processing"
+      },
+      "2605.22791": {
+        "exists": true,
+        "arxiv_title": "Gated DeltaNet-2: Decoupling Erase and Write in Linear Attention"
+      }
+    }
+  },
+  {
+    "run": "dr_q_kv_01",
+    "arm": "dr",
+    "q": "q",
+    "n_ids": 13,
+    "n_unresolved": 0,
+    "unresolved": [],
+    "ids": {
+      "2306.14048": {
+        "exists": true,
+        "arxiv_title": "H$_2$O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models"
+      },
+      "2309.17453": {
+        "exists": true,
+        "arxiv_title": "Efficient Streaming Language Models with Attention Sinks"
+      },
+      "2401.18079": {
+        "exists": true,
+        "arxiv_title": "KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization"
+      },
+      "2402.02750": {
+        "exists": true,
+        "arxiv_title": "KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache"
+      },
+      "2403.05527": {
+        "exists": true,
+        "arxiv_title": "GEAR: An Efficient KV Cache Compression Recipe for Near-Lossless Generative Inference of LLM"
+      },
+      "2406.02069": {
+        "exists": true,
+        "arxiv_title": "PyramidKV: Dynamic KV Cache Compression based on Pyramidal Information Funneling"
+      },
+      "2410.10781": {
+        "exists": true,
+        "arxiv_title": "When Attention Sink Emerges in Language Models: An Empirical View"
+      },
+      "2501.16383": {
+        "exists": true,
+        "arxiv_title": "RotateKV: Accurate and Robust 2-Bit KV Cache Quantization for LLMs via Outlier-Aware Adaptive Rotations"
+      },
+      "2502.00527": {
+        "exists": true,
+        "arxiv_title": "PolarQuant: Leveraging Polar Transformation for Efficient Key Cache Quantization and Decoding Acceleration"
+      },
+      "2502.14051": {
+        "exists": true,
+        "arxiv_title": "RocketKV: Accelerating Long-Context LLM Inference via Two-Stage KV Cache Compression"
+      },
+      "2505.24357": {
+        "exists": true,
+        "arxiv_title": "ReCalKV: Low-Rank KV Cache Compression via Head Reordering and Offline Calibration"
+      },
+      "2512.05916": {
+        "exists": true,
+        "arxiv_title": "KQ-SVD: Compressing the KV Cache with Provable Guarantees on Attention Fidelity"
+      },
+      "2601.21686": {
+        "exists": true,
+        "arxiv_title": "Don't be so Stief! Learning KV Cache low-rank approximation over the Stiefel manifold"
+      }
+    }
+  },
+  {
+    "run": "dr_q_opt_01",
+    "arm": "dr",
+    "q": "q",
+    "n_ids": 15,
+    "n_unresolved": 0,
+    "unresolved": [],
+    "ids": {
+      "1711.05101": {
+        "exists": true,
+        "arxiv_title": "Decoupled Weight Decay Regularization"
+      },
+      "1802.09568": {
+        "exists": true,
+        "arxiv_title": "Shampoo: Preconditioned Stochastic Tensor Optimization"
+      },
+      "2001.08361": {
+        "exists": true,
+        "arxiv_title": "Scaling Laws for Neural Language Models"
+      },
+      "2203.15556": {
+        "exists": true,
+        "arxiv_title": "Training Compute-Optimal Large Language Models"
+      },
+      "2405.15682": {
+        "exists": true,
+        "arxiv_title": "The Road Less Scheduled"
+      },
+      "2409.11321": {
+        "exists": true,
+        "arxiv_title": "SOAP: Improving and Stabilizing Shampoo using Adam"
+      },
+      "2409.20325": {
+        "exists": true,
+        "arxiv_title": "Old Optimizer, New Norm: An Anthology"
+      },
+      "2502.16982": {
+        "exists": true,
+        "arxiv_title": "Muon is Scalable for LLM Training"
+      },
+      "2505.02222": {
+        "exists": true,
+        "arxiv_title": "Practical Efficiency of Muon for Pretraining"
+      },
+      "2507.08472": {
+        "exists": true,
+        "arxiv_title": "Pre-Training LLMs on a budget: A comparison of three optimizers"
+      },
+      "2509.02046": {
+        "exists": true,
+        "arxiv_title": "Fantastic Pretraining Optimizers and Where to Find Them"
+      },
+      "2601.04890": {
+        "exists": true,
+        "arxiv_title": "Learnable Multipliers: Freeing the Scale of Language Model Matrix Layers"
+      },
+      "2601.13474": {
+        "exists": true,
+        "arxiv_title": "Preconditioning Benefits of Spectral Orthogonalization in Muon"
+      },
+      "2604.01472": {
+        "exists": true,
+        "arxiv_title": "The Newton-Muon Optimizer"
+      },
+      "2605.10468": {
+        "exists": true,
+        "arxiv_title": "Can Muon Fine-tune Adam-Pretrained Models?"
+      }
+    }
+  },
+  {
+    "run": "dr_q_tts_01",
+    "arm": "dr",
+    "q": "q",
+    "n_ids": 0,
+    "n_unresolved": 0,
+    "unresolved": [],
+    "ids": {}
+  },
+  {
+    "run": "sf_q_attn_01",
+    "arm": "sf",
+    "q": "q",
+    "n_ids": 43,
+    "n_unresolved": 1,
+    "unresolved": [
+      "2112.05682"
+    ],
+    "ids": {
+      "1706.03762": {
+        "exists": true,
+        "arxiv_title": "Attention Is All You Need"
+      },
+      "1904.10509": {
+        "exists": true,
+        "arxiv_title": "Generating Long Sequences with Sparse Transformers"
+      },
+      "1911.02150": {
+        "exists": true,
+        "arxiv_title": "Fast Transformer Decoding: One Write-Head is All You Need"
+      },
+      "2001.04451": {
+        "exists": true,
+        "arxiv_title": "Reformer: The Efficient Transformer"
+      },
+      "2004.05150": {
+        "exists": true,
+        "arxiv_title": "Longformer: The Long-Document Transformer"
+      },
+      "2006.16236": {
+        "exists": true,
+        "arxiv_title": "Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention"
+      },
+      "2007.14062": {
+        "exists": true,
+        "arxiv_title": "Big Bird: Transformers for Longer Sequences"
+      },
+      "2009.14794": {
+        "exists": true,
+        "arxiv_title": "Rethinking Attention with Performers"
+      },
+      "2103.02143": {
+        "exists": true,
+        "arxiv_title": "Random Feature Attention"
+      },
+      "2112.05682": {
+        "exists": false,
+        "arxiv_title": "(lookup error: <urlopen error timed out>)"
+      },
+      "2205.14135": {
+        "exists": true,
+        "arxiv_title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness"
+      },
+      "2305.13048": {
+        "exists": true,
+        "arxiv_title": "RWKV: Reinventing RNNs for the Transformer Era"
+      },
+      "2305.13245": {
+        "exists": true,
+        "arxiv_title": "GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints"
+      },
+      "2305.17118": {
+        "exists": true,
+        "arxiv_title": "Scissorhands: Exploiting the Persistence of Importance Hypothesis for LLM KV Cache Compression at Test Time"
+      },
+      "2306.14048": {
+        "exists": true,
+        "arxiv_title": "H$_2$O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models"
+      },
+      "2307.02486": {
+        "exists": true,
+        "arxiv_title": "LongNet: Scaling Transformers to 1,000,000,000 Tokens"
+      },
+      "2307.08621": {
+        "exists": true,
+        "arxiv_title": "Retentive Network: A Successor to Transformer for Large Language Models"
+      },
+      "2307.08691": {
+        "exists": true,
+        "arxiv_title": "FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning"
+      },
+      "2309.17453": {
+        "exists": true,
+        "arxiv_title": "Efficient Streaming Language Models with Attention Sinks"
+      },
+      "2310.01889": {
+        "exists": true,
+        "arxiv_title": "Ring Attention with Blockwise Transformers for Near-Infinite Context"
+      },
+      "2312.00752": {
+        "exists": true,
+        "arxiv_title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces"
+      },
+      "2312.06635": {
+        "exists": true,
+        "arxiv_title": "Gated Linear Attention Transformers with Hardware-Efficient Training"
+      },
+      "2404.07143": {
+        "exists": true,
+        "arxiv_title": "Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention"
+      },
+      "2404.14469": {
+        "exists": true,
+        "arxiv_title": "SnapKV: LLM Knows What You are Looking for Before Generation"
+      },
+      "2406.06484": {
+        "exists": true,
+        "arxiv_title": "Parallelizing Linear Transformers with the Delta Rule over Sequence Length"
+      },
+      "2406.07522": {
+        "exists": true,
+        "arxiv_title": "Samba: Simple Hybrid State Space Models for Efficient Unlimited Context Language Modeling"
+      },
+      "2406.10774": {
+        "exists": true,
+        "arxiv_title": "Quest: Query-Aware Sparsity for Efficient Long-Context LLM Inference"
+      },
+      "2407.02490": {
+        "exists": true,
+        "arxiv_title": "MInference 1.0: Accelerating Pre-filling for Long-Context LLMs via Dynamic Sparse Attention"
+      },
+      "2407.08608": {
+        "exists": true,
+        "arxiv_title": "FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision"
+      },
+      "2410.13276": {
+        "exists": true,
+        "arxiv_title": "SeerAttention: Learning Intrinsic Sparse Attention in Your LLMs"
+      },
+      "2412.06464": {
+        "exists": true,
+        "arxiv_title": "Gated Delta Networks: Improving Mamba2 with Delta Rule"
+      },
+      "2501.01005": {
+        "exists": true,
+        "arxiv_title": "FlashInfer: Efficient and Customizable Attention Engine for LLM Inference Serving"
+      },
+      "2502.11089": {
+        "exists": true,
+        "arxiv_title": "Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention"
+      },
+      "2502.13189": {
+        "exists": true,
+        "arxiv_title": "MoBA: Mixture of Block Attention for Long-Context LLMs"
+      },
+      "2503.14456": {
+        "exists": true,
+        "arxiv_title": "RWKV-7 \"Goose\" with Expressive Dynamic State Evolution"
+      },
+      "2503.16428": {
+        "exists": true,
+        "arxiv_title": "XAttention: Block Sparse Attention with Antidiagonal Scoring"
+      },
+      "2507.22448": {
+        "exists": true,
+        "arxiv_title": "Falcon-H1: A Family of Hybrid-Head Language Models Redefining Efficiency and Performance"
+      },
+      "2510.26692": {
+        "exists": true,
+        "arxiv_title": "Kimi Linear: An Expressive, Efficient Attention Architecture"
+      },
+      "2511.11571": {
+        "exists": true,
+        "arxiv_title": "Optimizing Mixture of Block Attention"
+      },
+      "2602.01744": {
+        "exists": true,
+        "arxiv_title": "Softmax Linear Attention: Reclaiming Global Competition"
+      },
+      "2603.12201": {
+        "exists": true,
+        "arxiv_title": "IndexCache: Accelerating Sparse Attention via Cross-Layer Index Reuse"
+      },
+      "2603.17484": {
+        "exists": true,
+        "arxiv_title": "Learning When to Attend: Conditional Memory Access for Long-Context LLMs"
+      },
+      "2604.24715": {
+        "exists": true,
+        "arxiv_title": "Long-Context Aware Upcycling: A New Frontier for Hybrid LLM Scaling"
+      }
+    }
+  },
+  {
+    "run": "sf_q_kv_01",
+    "arm": "sf",
+    "q": "q",
+    "n_ids": 36,
+    "n_unresolved": 0,
+    "unresolved": [],
+    "ids": {
+      "1911.02150": {
+        "exists": true,
+        "arxiv_title": "Fast Transformer Decoding: One Write-Head is All You Need"
+      },
+      "2303.06865": {
+        "exists": true,
+        "arxiv_title": "FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU"
+      },
+      "2305.13245": {
+        "exists": true,
+        "arxiv_title": "GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints"
+      },
+      "2305.17118": {
+        "exists": true,
+        "arxiv_title": "Scissorhands: Exploiting the Persistence of Importance Hypothesis for LLM KV Cache Compression at Test Time"
+      },
+      "2306.14048": {
+        "exists": true,
+        "arxiv_title": "H$_2$O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models"
+      },
+      "2309.17453": {
+        "exists": true,
+        "arxiv_title": "Efficient Streaming Language Models with Attention Sinks"
+      },
+      "2310.01801": {
+        "exists": true,
+        "arxiv_title": "Model Tells You What to Discard: Adaptive KV Cache Compression for LLMs"
+      },
+      "2401.18079": {
+        "exists": true,
+        "arxiv_title": "KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization"
+      },
+      "2402.02750": {
+        "exists": true,
+        "arxiv_title": "KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache"
+      },
+      "2402.18096": {
+        "exists": true,
+        "arxiv_title": "No Token Left Behind: Reliable KV Cache Compression via Importance-Aware Mixed Precision Quantization"
+      },
+      "2403.09636": {
+        "exists": true,
+        "arxiv_title": "Dynamic Memory Compression: Retrofitting LLMs for Accelerated Inference"
+      },
+      "2404.14469": {
+        "exists": true,
+        "arxiv_title": "SnapKV: LLM Knows What You are Looking for Before Generation"
+      },
+      "2405.12532": {
+        "exists": true,
+        "arxiv_title": "PyramidInfer: Pyramid KV Cache Compression for High-throughput LLM Inference"
+      },
+      "2405.12981": {
+        "exists": true,
+        "arxiv_title": "Reducing Transformer Key-Value Cache Size with Cross-Layer Attention"
+      },
+      "2405.14366": {
+        "exists": true,
+        "arxiv_title": "MiniCache: KV Cache Compression in Depth Dimension for Large Language Models"
+      },
+      "2406.02069": {
+        "exists": true,
+        "arxiv_title": "PyramidKV: Dynamic KV Cache Compression based on Pyramidal Information Funneling"
+      },
+      "2406.10774": {
+        "exists": true,
+        "arxiv_title": "Quest: Query-Aware Sparsity for Efficient Long-Context LLM Inference"
+      },
+      "2406.11430": {
+        "exists": true,
+        "arxiv_title": "A Simple and Effective $L_2$ Norm-Based Strategy for KV Cache Compression"
+      },
+      "2406.19707": {
+        "exists": true,
+        "arxiv_title": "InfiniGen: Efficient Generative Inference of Large Language Models with Dynamic KV Cache Management"
+      },
+      "2407.02490": {
+        "exists": true,
+        "arxiv_title": "MInference 1.0: Accelerating Pre-filling for Long-Context LLMs via Dynamic Sparse Attention"
+      },
+      "2407.11550": {
+        "exists": true,
+        "arxiv_title": "Ada-KV: Optimizing KV Cache Eviction by Adaptive Budget Allocation for Efficient LLM Inference"
+      },
+      "2407.21018": {
+        "exists": true,
+        "arxiv_title": "ThinK: Thinner Key Cache by Query-Driven Pruning"
+      },
+      "2407.21118": {
+        "exists": true,
+        "arxiv_title": "Palu: Compressing KV-Cache with Low-Rank Projection"
+      },
+      "2410.10819": {
+        "exists": true,
+        "arxiv_title": "DuoAttention: Efficient Long-Context LLM Inference with Retrieval and Streaming Heads"
+      },
+      "2410.21465": {
+        "exists": true,
+        "arxiv_title": "ShadowKV: KV Cache in Shadows for High-Throughput Long-Context LLM Inference"
+      },
+      "2503.16163": {
+        "exists": true,
+        "arxiv_title": "SpeCache: Speculative Key-Value Caching for Efficient Generation of LLMs"
+      },
+      "2505.23416": {
+        "exists": true,
+        "arxiv_title": "KVzip: Query-Agnostic KV Cache Compression with Context Reconstruction"
+      },
+      "2509.09754": {
+        "exists": true,
+        "arxiv_title": "LAVa: Layer-wise KV Cache Eviction with Dynamic Budget Allocation"
+      },
+      "2512.14946": {
+        "exists": true,
+        "arxiv_title": "EVICPRESS: Joint KV-Cache Compression and Eviction for Efficient LLM Serving"
+      },
+      "2601.17668": {
+        "exists": true,
+        "arxiv_title": "Fast KVzip: Efficient and Accurate LLM Inference with Gated KV Eviction"
+      },
+      "2602.07721": {
+        "exists": true,
+        "arxiv_title": "ParisKV: Fast and Drift-Robust KV-Cache Retrieval for Long-Context LLMs"
+      },
+      "2603.16435": {
+        "exists": true,
+        "arxiv_title": "VQKV: High-Fidelity and High-Ratio Cache Compression via Vector-Quantization"
+      },
+      "2605.08317": {
+        "exists": true,
+        "arxiv_title": "RDKV: Rate-Distortion Bit Allocation for Joint Eviction and Quantization of the KV Cache"
+      },
+      "2605.11478": {
+        "exists": true,
+        "arxiv_title": "FibQuant: Universal Vector Quantization for Random-Access KV-Cache Compression"
+      },
+      "2606.01563": {
+        "exists": true,
+        "arxiv_title": "MomentKV: Closing the Directional Gap in KV Cache Eviction for Long-Context Inference"
+      },
+      "2606.03928": {
+        "exists": true,
+        "arxiv_title": "Value-Aware Stochastic KV Cache Eviction for Reasoning Models"
+      }
+    }
+  },
+  {
+    "run": "sf_q_opt_01",
+    "arm": "sf",
+    "q": "q",
+    "n_ids": 21,
+    "n_unresolved": 0,
+    "unresolved": [],
+    "ids": {
+      "1412.6980": {
+        "exists": true,
+        "arxiv_title": "Adam: A Method for Stochastic Optimization"
+      },
+      "1711.05101": {
+        "exists": true,
+        "arxiv_title": "Decoupled Weight Decay Regularization"
+      },
+      "1802.09568": {
+        "exists": true,
+        "arxiv_title": "Shampoo: Preconditioned Stochastic Tensor Optimization"
+      },
+      "2302.06675": {
+        "exists": true,
+        "arxiv_title": "Symbolic Discovery of Optimization Algorithms"
+      },
+      "2305.14342": {
+        "exists": true,
+        "arxiv_title": "Sophia: A Scalable Stochastic Second-order Optimizer for Language Model Pre-training"
+      },
+      "2402.16788": {
+        "exists": true,
+        "arxiv_title": "Why Transformers Need Adam: A Hessian Perspective"
+      },
+      "2407.07972": {
+        "exists": true,
+        "arxiv_title": "Deconstructing What Makes a Good Optimizer for Language Models"
+      },
+      "2409.11321": {
+        "exists": true,
+        "arxiv_title": "SOAP: Improving and Stabilizing Shampoo using Adam"
+      },
+      "2502.16982": {
+        "exists": true,
+        "arxiv_title": "Muon is Scalable for LLM Training"
+      },
+      "2509.01440": {
+        "exists": true,
+        "arxiv_title": "Benchmarking Optimizers for Large Language Model Pretraining"
+      },
+      "2509.02046": {
+        "exists": true,
+        "arxiv_title": "Fantastic Pretraining Optimizers and Where to Find Them"
+      },
+      "2601.13474": {
+        "exists": true,
+        "arxiv_title": "Preconditioning Benefits of Spectral Orthogonalization in Muon"
+      },
+      "2602.02016": {
+        "exists": true,
+        "arxiv_title": "DASH: Faster Shampoo via Batched Block Preconditioning and Efficient Inverse-Root Solvers"
+      },
+      "2602.21545": {
+        "exists": true,
+        "arxiv_title": "MUON+: Towards More Effective Muon via One Additional Normalization Step for LLM Pre-training"
+      },
+      "2603.00742": {
+        "exists": true,
+        "arxiv_title": "To Use or not to Use Muon: How Simplicity Bias in Optimizers Matters"
+      },
+      "2603.09697": {
+        "exists": true,
+        "arxiv_title": "Mousse: Rectifying the Geometry of Muon with Curvature-Aware Preconditioning"
+      },
+      "2603.10067": {
+        "exists": true,
+        "arxiv_title": "HTMuon: Improving Muon via Heavy-Tailed Spectral Correction"
+      },
+      "2603.20527": {
+        "exists": true,
+        "arxiv_title": "RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization"
+      },
+      "2604.09967": {
+        "exists": true,
+        "arxiv_title": "Muon$^2$: Boosting Muon via Adaptive Second-Moment Preconditioning"
+      },
+      "2605.17109": {
+        "exists": true,
+        "arxiv_title": "DynMuon: A Dynamic Spectral Shaping View of Muon"
+      },
+      "2606.04662": {
+        "exists": true,
+        "arxiv_title": "Why Muon Outperforms Adam: A Curvature Perspective"
+      }
+    }
+  },
+  {
+    "run": "sf_q_tts_01",
+    "arm": "sf",
+    "q": "q",
+    "n_ids": 35,
+    "n_unresolved": 0,
+    "unresolved": [],
+    "ids": {
+      "2201.11903": {
+        "exists": true,
+        "arxiv_title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
+      },
+      "2203.11171": {
+        "exists": true,
+        "arxiv_title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models"
+      },
+      "2211.14275": {
+        "exists": true,
+        "arxiv_title": "Solving math word problems with process- and outcome-based feedback"
+      },
+      "2305.10601": {
+        "exists": true,
+        "arxiv_title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models"
+      },
+      "2305.14992": {
+        "exists": true,
+        "arxiv_title": "Reasoning with Language Model is Planning with World Model"
+      },
+      "2305.20050": {
+        "exists": true,
+        "arxiv_title": "Let's Verify Step by Step"
+      },
+      "2309.17179": {
+        "exists": true,
+        "arxiv_title": "Alphazero-like Tree-Search can Guide Large Language Model Decoding and Training"
+      },
+      "2312.08935": {
+        "exists": true,
+        "arxiv_title": "Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations"
+      },
+      "2406.03816": {
+        "exists": true,
+        "arxiv_title": "ReST-MCTS*: LLM Self-Training via Process Reward Guided Tree Search"
+      },
+      "2407.21787": {
+        "exists": true,
+        "arxiv_title": "Large Language Monkeys: Scaling Inference Compute with Repeated Sampling"
+      },
+      "2408.00724": {
+        "exists": true,
+        "arxiv_title": "Inference Scaling Laws: An Empirical Analysis of Compute-Optimal Inference for Problem-Solving with Language Models"
+      },
+      "2408.03314": {
+        "exists": true,
+        "arxiv_title": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters"
+      },
+      "2408.15240": {
+        "exists": true,
+        "arxiv_title": "Generative Verifiers: Reward Modeling as Next-Token Prediction"
+      },
+      "2409.12917": {
+        "exists": true,
+        "arxiv_title": "Training Language Models to Self-Correct via Reinforcement Learning"
+      },
+      "2412.18547": {
+        "exists": true,
+        "arxiv_title": "Token-Budget-Aware LLM Reasoning"
+      },
+      "2412.21187": {
+        "exists": true,
+        "arxiv_title": "Do NOT Think That Much for 2+3=? On the Overthinking of o1-Like LLMs"
+      },
+      "2501.07301": {
+        "exists": true,
+        "arxiv_title": "The Lessons of Developing Process Reward Models in Mathematical Reasoning"
+      },
+      "2501.12599": {
+        "exists": true,
+        "arxiv_title": "Kimi k1.5: Scaling Reinforcement Learning with LLMs"
+      },
+      "2501.12948": {
+        "exists": true,
+        "arxiv_title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning"
+      },
+      "2501.19393": {
+        "exists": true,
+        "arxiv_title": "s1: Simple test-time scaling"
+      },
+      "2502.03387": {
+        "exists": true,
+        "arxiv_title": "LIMO: Less is More for Reasoning"
+      },
+      "2502.06703": {
+        "exists": true,
+        "arxiv_title": "Can 1B LLM Surpass 405B LLM? Rethinking Compute-Optimal Test-Time Scaling"
+      },
+      "2502.12118": {
+        "exists": true,
+        "arxiv_title": "Scaling Test-Time Compute Without Verification or RL is Suboptimal"
+      },
+      "2502.18080": {
+        "exists": true,
+        "arxiv_title": "Towards Thinking-Optimal Scaling of Test-Time Compute for LLM Reasoning"
+      },
+      "2503.04412": {
+        "exists": true,
+        "arxiv_title": "Wider or Deeper? Scaling LLM Inference-Time Compute with Adaptive Branching Tree Search"
+      },
+      "2503.04697": {
+        "exists": true,
+        "arxiv_title": "L1: Controlling How Long A Reasoning Model Thinks With Reinforcement Learning"
+      },
+      "2503.07572": {
+        "exists": true,
+        "arxiv_title": "Optimizing Test-Time Compute via Meta Reinforcement Fine-Tuning"
+      },
+      "2503.16419": {
+        "exists": true,
+        "arxiv_title": "Stop Overthinking: A Survey on Efficient Reasoning for Large Language Models"
+      },
+      "2504.16828": {
+        "exists": true,
+        "arxiv_title": "Process Reward Models That Think"
+      },
+      "2505.11274": {
+        "exists": true,
+        "arxiv_title": "SelfBudgeter: Adaptive Token Allocation for Efficient LLM Reasoning"
+      },
+      "2506.02355": {
+        "exists": true,
+        "arxiv_title": "Rewarding the Unlikely: Lifting GRPO Beyond Distribution Sharpening"
+      },
+      "2506.09026": {
+        "exists": true,
+        "arxiv_title": "e3: Learning to Explore Enables Extrapolation of Test-Time Compute for LLMs"
+      },
+      "2506.14245": {
+        "exists": true,
+        "arxiv_title": "Reinforcement Learning with Verifiable Rewards Implicitly Incentivizes Correct Reasoning in Base LLMs"
+      },
+      "2510.10293": {
+        "exists": true,
+        "arxiv_title": "MatryoshkaThinking: Recursive Test-Time Scaling Enables Efficient Reasoning"
+      },
+      "2601.05593": {
+        "exists": true,
+        "arxiv_title": "PaCoRe: Learning to Scale Test-Time Compute with Parallel Coordinated Reasoning"
+      }
+    }
+  }
+]

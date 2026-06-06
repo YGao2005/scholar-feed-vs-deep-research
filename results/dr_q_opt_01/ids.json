@@ -1,0 +1,70 @@
+{
+  "run": "dr_q_opt_01",
+  "arm": "dr",
+  "q": "q",
+  "n_ids": 15,
+  "n_unresolved": 0,
+  "unresolved": [],
+  "ids": {
+    "1711.05101": {
+      "exists": true,
+      "arxiv_title": "Decoupled Weight Decay Regularization"
+    },
+    "1802.09568": {
+      "exists": true,
+      "arxiv_title": "Shampoo: Preconditioned Stochastic Tensor Optimization"
+    },
+    "2001.08361": {
+      "exists": true,
+      "arxiv_title": "Scaling Laws for Neural Language Models"
+    },
+    "2203.15556": {
+      "exists": true,
+      "arxiv_title": "Training Compute-Optimal Large Language Models"
+    },
+    "2405.15682": {
+      "exists": true,
+      "arxiv_title": "The Road Less Scheduled"
+    },
+    "2409.11321": {
+      "exists": true,
+      "arxiv_title": "SOAP: Improving and Stabilizing Shampoo using Adam"
+    },
+    "2409.20325": {
+      "exists": true,
+      "arxiv_title": "Old Optimizer, New Norm: An Anthology"
+    },
+    "2502.16982": {
+      "exists": true,
+      "arxiv_title": "Muon is Scalable for LLM Training"
+    },
+    "2505.02222": {
+      "exists": true,
+      "arxiv_title": "Practical Efficiency of Muon for Pretraining"
+    },
+    "2507.08472": {
+      "exists": true,
+      "arxiv_title": "Pre-Training LLMs on a budget: A comparison of three optimizers"
+    },
+    "2509.02046": {
+      "exists": true,
+      "arxiv_title": "Fantastic Pretraining Optimizers and Where to Find Them"
+    },
+    "2601.04890": {
+      "exists": true,
+      "arxiv_title": "Learnable Multipliers: Freeing the Scale of Language Model Matrix Layers"
+    },
+    "2601.13474": {
+      "exists": true,
+      "arxiv_title": "Preconditioning Benefits of Spectral Orthogonalization in Muon"
+    },
+    "2604.01472": {
+      "exists": true,
+      "arxiv_title": "The Newton-Muon Optimizer"
+    },
+    "2605.10468": {
+      "exists": true,
+      "arxiv_title": "Can Muon Fine-tune Adam-Pretrained Models?"
+    }
+  }
+}

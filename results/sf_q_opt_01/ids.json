@@ -1,0 +1,94 @@
+{
+  "run": "sf_q_opt_01",
+  "arm": "sf",
+  "q": "q",
+  "n_ids": 21,
+  "n_unresolved": 0,
+  "unresolved": [],
+  "ids": {
+    "1412.6980": {
+      "exists": true,
+      "arxiv_title": "Adam: A Method for Stochastic Optimization"
+    },
+    "1711.05101": {
+      "exists": true,
+      "arxiv_title": "Decoupled Weight Decay Regularization"
+    },
+    "1802.09568": {
+      "exists": true,
+      "arxiv_title": "Shampoo: Preconditioned Stochastic Tensor Optimization"
+    },
+    "2302.06675": {
+      "exists": true,
+      "arxiv_title": "Symbolic Discovery of Optimization Algorithms"
+    },
+    "2305.14342": {
+      "exists": true,
+      "arxiv_title": "Sophia: A Scalable Stochastic Second-order Optimizer for Language Model Pre-training"
+    },
+    "2402.16788": {
+      "exists": true,
+      "arxiv_title": "Why Transformers Need Adam: A Hessian Perspective"
+    },
+    "2407.07972": {
+      "exists": true,
+      "arxiv_title": "Deconstructing What Makes a Good Optimizer for Language Models"
+    },
+    "2409.11321": {
+      "exists": true,
+      "arxiv_title": "SOAP: Improving and Stabilizing Shampoo using Adam"
+    },
+    "2502.16982": {
+      "exists": true,
+      "arxiv_title": "Muon is Scalable for LLM Training"
+    },
+    "2509.01440": {
+      "exists": true,
+      "arxiv_title": "Benchmarking Optimizers for Large Language Model Pretraining"
+    },
+    "2509.02046": {
+      "exists": true,
+      "arxiv_title": "Fantastic Pretraining Optimizers and Where to Find Them"
+    },
+    "2601.13474": {
+      "exists": true,
+      "arxiv_title": "Preconditioning Benefits of Spectral Orthogonalization in Muon"
+    },
+    "2602.02016": {
+      "exists": true,
+      "arxiv_title": "DASH: Faster Shampoo via Batched Block Preconditioning and Efficient Inverse-Root Solvers"
+    },
+    "2602.21545": {
+      "exists": true,
+      "arxiv_title": "MUON+: Towards More Effective Muon via One Additional Normalization Step for LLM Pre-training"
+    },
+    "2603.00742": {
+      "exists": true,
+      "arxiv_title": "To Use or not to Use Muon: How Simplicity Bias in Optimizers Matters"
+    },
+    "2603.09697": {
+      "exists": true,
+      "arxiv_title": "Mousse: Rectifying the Geometry of Muon with Curvature-Aware Preconditioning"
+    },
+    "2603.10067": {
+      "exists": true,
+      "arxiv_title": "HTMuon: Improving Muon via Heavy-Tailed Spectral Correction"
+    },
+    "2603.20527": {
+      "exists": true,
+      "arxiv_title": "RMNP: Row-Momentum Normalized Preconditioning for Scalable Matrix-Based Optimization"
+    },
+    "2604.09967": {
+      "exists": true,
+      "arxiv_title": "Muon$^2$: Boosting Muon via Adaptive Second-Moment Preconditioning"
+    },
+    "2605.17109": {
+      "exists": true,
+      "arxiv_title": "DynMuon: A Dynamic Spectral Shaping View of Muon"
+    },
+    "2606.04662": {
+      "exists": true,
+      "arxiv_title": "Why Muon Outperforms Adam: A Curvature Perspective"
+    }
+  }
+}
