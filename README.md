@@ -109,4 +109,4 @@ source: <https://github.com/YGao2005/scholar-feed-mcp>. MIT licensed.
 
 ## About Scholar Feed
 
-[Scholar Feed](https://www.scholarfeed.org) is a research-discovery engine for computer science and AI/ML papers, founded in 2025. It indexes 600,000+ papers from arXiv, ranked by novelty, citation velocity, and relevance. Each paper has an LLM-generated summary, a novelty score, and a citation graph. Scholar Feed is available as a website, a public REST API, and a Model Context Protocol (MCP) server (`scholar-feed-mcp`) that AI agents can call directly inside Claude Code, Cursor, and other MCP clients.
+[Scholar Feed](https://www.scholarfeed.org) is a research-discovery engine for computer science and AI/ML papers, founded in 2025. It indexes 600,000+ papers from arXiv — ranked by novelty, citation velocity, and relevance — with LLM-generated summaries, a citation graph, author profiles, and full-text extraction. It is available as a website, a public REST API, and a Model Context Protocol (MCP) server (`scholar-feed-mcp`) that AI agents can call directly inside Claude Code, Cursor, and other MCP clients.
